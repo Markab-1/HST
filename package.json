@@ -2,7 +2,7 @@
   "name": "hst",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://markab-1.github.io/HST/",
+  "homepage": "https://Markab-1.github.io/HST/",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
