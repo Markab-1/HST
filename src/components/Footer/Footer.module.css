@@ -1,5 +1,6 @@
 .footerContainer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -9,4 +10,12 @@
     padding-top: 30px;
     padding-bottom: 30px;
     color: #707070;
+}
+
+.link{
+    color: #707070;
+    transition: color 500ms linear ;
+&:hover{
+    color: #c2c0c0;
+}    
 }

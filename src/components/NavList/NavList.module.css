@@ -19,6 +19,7 @@
 
     border: solid 1px rgb(201, 226, 248);
     border-radius: 5px;
+    transition: background-color 500ms linear;
 
   }
 
