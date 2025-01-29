@@ -1,0 +1,28 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    margin-left: calc(-5px);
+    align-items: top;
+    margin-bottom: 15px;
+  }
+
+  
+.authorBox {
+margin-top: -5px;
+color: black;
+}
+
+
+.item{
+  margin-left: 5px;
+  font-weight: 500;
+ 
+}
+ 
+.itemInst{
+  margin-left: 5px;
+}
+  
+.hex {
+  font-size: 10px;
+}

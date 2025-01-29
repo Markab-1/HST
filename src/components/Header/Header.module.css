@@ -1,0 +1,168 @@
+.container {
+    position: relative;
+    text-align: center;
+    width: 100%;
+
+    background-image: url('../../figs/MW_ISM.jpg');
+    background-repeat: no-repeat; 
+    background-color: #394150;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+/*.container::before {
+  display: block;
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  
+  content: '';
+  width: 200px;
+  height: 200px;
+  background-image: url('../../figs/FRESCO_Logo_NoText.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 5;
+ background-color: black; 
+
+} */
+
+
+.img {
+  display: block;
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  
+  content: '';
+  width: 200px;
+  z-index: 5;
+  transition: all 400ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.img:hover {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%) scale(1.1);
+/*  transition: transform 400ms cubic-bezier(0.4, 0, 0.2, 1);*/
+  }
+
+.title  {
+    font-size: 40px;
+    color: rgb(228, 227, 227);
+    margin-bottom: 40px;
+}
+
+
+  .containerTablet {
+    position: relative;
+    text-align: center;
+    width: 100%;
+
+    background-image: url('../../figs/header_bkg.jpg');
+    background-repeat: no-repeat; 
+    background-color: #7fffd4;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.titleTablet  {
+    font-size: 40px;
+    color: rgb(76, 75, 75);
+    margin-bottom: 30px;
+}
+
+
+  .imgTablet {
+    display: block;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    
+    content: '';
+    width: 100px;
+    z-index: 5;
+
+    transition: all 400ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .imgTablet:hover {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    transform: scale(1.1);
+/*    transition: transform 400ms cubic-bezier(0.4, 0, 0.2, 1); */
+    }
+
+    .containerMobile {
+      position: relative;
+      text-align: center;
+      width: 100%;
+  
+      background-image: url('../../figs/header_bkg.jpg');
+      background-repeat: no-repeat; 
+      background-color: #7fffd4;
+      padding-top: 40px;
+      padding-bottom: 40px;
+  }
+  
+  .titleMobile  {
+    font-size: 26px;
+    color: rgb(76, 75, 75);
+    margin-bottom: 0px;
+}
+
+
+  .imgMobile {
+    display: block;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    
+    content: '';
+    width: 60px;
+    z-index: 5;
+    transition: all 400ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .imgMobile:hover {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    transform: scale(1.1);
+
+  }
+
+
+.dropMenuContainer{
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 250px;
+  overflow: hidden;  
+
+}
+
+.menuSvg{
+  display: block;
+  position: absolute;
+  top: 0px;
+  right:10px;
+  width: 35px;
+  height: 35px;
+}
+
+.dropMenu{
+  display: block;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #cadbe6;
+  border-radius: 5px;
+  transform: translateX(40%);
+  transition: transform 400ms cubic-bezier(0.4, 0, 0.2, 1);
+}

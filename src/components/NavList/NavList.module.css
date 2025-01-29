@@ -1,0 +1,87 @@
+.menuList {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    margin-left: calc(-5px);
+  }
+
+  .menuItem {
+    padding: 12px 0px;
+    width: 140px;
+    font-weight: 700;
+
+    text-align: center;
+    color: rgb(240, 246, 252);
+    background-color: #557586;  
+    text-transform: uppercase;
+    margin-left: 5px;
+
+    border: solid 1px rgb(201, 226, 248);
+    border-radius: 5px;
+
+  }
+
+  .menuItem:hover {
+    background-color: #7c96a8; 
+    cursor: pointer;
+  }
+
+  .menuListTablet {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    margin-left: calc(-5px);
+  }
+
+  .menuItemTablet {
+    padding: 10px 0px;
+    width: 110px;
+    font-weight: 700;
+    font-size: 12px;
+
+    text-align: center;
+    color: aliceblue;
+    background-color: #3f3f40;  
+    text-transform: uppercase;
+    margin-left: 5px;
+
+    border: none;
+    border-radius: 5px;
+  }
+
+  .menuItemTablet:hover {
+    background-color: #747475; 
+    cursor: pointer;
+  }
+
+  .menuListMobile {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: calc(-10px);
+    margin-bottom: 40px;
+  }
+
+  .menuItemMobile {
+    padding: 10px 0px;
+    width: 160px;
+    font-weight: 700;
+    font-size: 16px;
+
+    text-align: center;
+    color: aliceblue;
+    background-color: #3f3f40;  
+    text-transform: uppercase;
+    margin-top: 10px;
+
+    border: none;
+    border-radius: 5px;
+  }
+
+  .menuItemMobile:hover {
+    background-color: #747475; 
+    cursor: pointer;
+  }

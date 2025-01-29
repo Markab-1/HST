@@ -1,0 +1,18 @@
+.item{
+    margin-bottom: 25px;
+}
+
+.div{
+    font-family: 40;
+    font-weight: 700;
+}
+
+.pub{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.text{
+    display: inline-block;
+    margin-right: 20px;
+}

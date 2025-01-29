@@ -1,0 +1,26 @@
+[
+    { 
+      "id": 1,
+      "authors": "Erica J. Nelson et al.",
+      "title": "FRESCO: An extended, massive, rapidly rotating galaxy at z=5.3",
+      "link": "https://ui.adsabs.harvard.edu/abs/2023arXiv231006887N/abstract"
+    },
+    { 
+      "id": 2,
+      "authors": "Pascal Oesch et al.",
+      "title": "The JWST FRESCO survey: legacy NIRCam/grism spectroscopy and imaging in the two GOODS fields",
+      "link": "https://ui.adsabs.harvard.edu/abs/2023MNRAS.525.2864O/abstract"
+    },
+    { 
+      "id": 3,
+      "authors": "Thomas Herard-Demanche et al.",
+      "title": "Mapping dusty galaxy growth at  z>5 with FRESCO: Detection of H&alpha; in submm galaxy HDF850.1 and the surrounding overdense structures",
+      "link": "https://ui.adsabs.harvard.edu/abs/2023arXiv230904525H/abstract"
+    },
+    { 
+      "id": 4,
+      "authors": "Jorryt Matthee et al.",
+      "title": "Little Red Dots: an abundant population of faint AGN at z∼5 revealed by the EIGER and FRESCO JWST surveys",
+      "link": "https://ui.adsabs.harvard.edu/abs/2023arXiv230605448M/abstract"
+    }
+]

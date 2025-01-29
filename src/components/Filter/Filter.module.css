@@ -1,0 +1,14 @@
+.text{
+    margin-bottom: 20px;
+    flex-direction: row;
+    
+}
+
+.inputBox{
+    display: inline-flex;
+    margin-bottom: 20px;
+}
+
+.inputItem{
+    margin-left: 20px;
+}

@@ -1,0 +1,20 @@
+.menuItem {
+    padding: 20px 0px;
+    width: 140px;
+    font-weight: 700;
+
+    text-align: center;
+    color: aliceblue;
+    background-color: #3f3f40;  
+    text-transform: uppercase;
+    margin-left: 5px;
+
+    border: none;
+    border-radius: 5px;
+
+  }
+
+  .menuItem:hover {
+    background-color: #747475; 
+    cursor: pointer;
+  }

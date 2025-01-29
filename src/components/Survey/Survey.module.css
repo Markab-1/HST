@@ -1,0 +1,42 @@
+.content {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.abs {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.layout {
+    display: inline-flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-left: calc(-20px);
+
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.layoutItem{
+
+    flex-basis: calc(100% / 2 - 20px);
+    margin-left: 20px;
+}
+
+.layoutTablet {
+    display: inline-flex;
+    flex-direction: column;
+    text-align: left;
+
+    font-size: 20px;
+    text-align: justify;
+}
+
+.layoutItemTablet{
+    margin-bottom: 40px;
+}

@@ -1,0 +1,19 @@
+.content{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.par {
+    margin-bottom: 20px;
+}
+
+.shortwrapper{
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+    content: '';
+    background-color: aquamarine;
+    width: 200px;
+    height: 50px;
+  }

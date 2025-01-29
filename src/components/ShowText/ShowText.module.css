@@ -1,0 +1,20 @@
+
+.wrapper{
+  display: grid;
+  max-height: auto;
+  width: 100%;
+  transition: height 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  overflow-y: hidden;
+}
+
+.btn{
+    margin-top: 20px;
+    font-size: 16px;
+    width: 100px;
+    background-color: rgb(180, 208, 214);
+    border-radius: 5px;
+    border: 1px solid rgb(123, 132, 134);
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
