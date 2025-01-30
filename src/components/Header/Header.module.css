@@ -10,44 +10,39 @@
     padding-bottom: 20px;
 }
 
-/*.container::before {
-  display: block;
-  position: absolute;
-  left: 20px;
-  top: 50%;
-  transform: translateY(-50%);
-  
-  content: '';
-  width: 200px;
-  height: 200px;
-  background-image: url('../../figs/FRESCO_Logo_NoText.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  z-index: 5;
- background-color: black; 
-
-} */
-
-
 .img {
   display: block;
   position: absolute;
-  left: 20px;
-  top: 50%;
-  transform: translateY(-50%);
+  right: 20px;
+  top: 20px;
+
   
   content: '';
-  width: 200px;
+  width: 50px;
   z-index: 5;
-  transition: all 400ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .img:hover {
-  position: absolute;
-  left: 20px;
-  top: 50%;
-  transform: translateY(-50%) scale(1.1);
-/*  transition: transform 400ms cubic-bezier(0.4, 0, 0.2, 1);*/
+  animation: shake 0.5s;
+  }
+
+  @keyframes shake{
+    0%{
+      transform: rotate(0)
+    }
+    25%{
+      transform: rotate(90deg);
+    }
+    50%{
+      transform: rotate(180deg);
+    }
+    75%{
+      transform: rotate(270deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
   }
 
 .title  {
@@ -60,18 +55,18 @@
   .containerTablet {
     position: relative;
     text-align: center;
-    width: 100%;
+    width: 100wv;
 
-    background-image: url('../../figs/header_bkg.jpg');
+    background-image: url('../../figs/MW_ISM.jpg');
     background-repeat: no-repeat; 
-    background-color: #7fffd4;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    background-color: #394150;
+    padding: 20px 60px;
+
 }
 
 .titleTablet  {
-    font-size: 40px;
-    color: rgb(76, 75, 75);
+    font-size: 32px;
+    color: rgb(228, 227, 227);
     margin-bottom: 30px;
 }
 
@@ -79,22 +74,18 @@
   .imgTablet {
     display: block;
     position: absolute;
-    left: 5px;
-    top: 5px;
+    right: 10px;
+    top: 10px;
     
     content: '';
-    width: 100px;
+    width: 60px;
     z-index: 5;
 
     transition: all 400ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   .imgTablet:hover {
-    position: absolute;
-    left: 5px;
-    top: 5px;
-    transform: scale(1.1);
-/*    transition: transform 400ms cubic-bezier(0.4, 0, 0.2, 1); */
+    animation: shake 0.5s;
     }
 
     .containerMobile {
@@ -119,8 +110,8 @@
   .imgMobile {
     display: block;
     position: absolute;
-    left: 5px;
-    top: 5px;
+    right: 5px;
+    top: 150px;
     
     content: '';
     width: 60px;

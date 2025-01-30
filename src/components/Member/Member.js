@@ -7,7 +7,7 @@ const Member = ({ name, fname, institute, country, photo }) => {
   const isMobile = useMediaQuery({ query: '(max-width: 767px)'  })
   const isTablet = useMediaQuery({ query: '(min-width: 768px) and (max-width: 1399px)' })
   const isDesktop = useMediaQuery({ query: '(min-width: 1400px)' })
-
+console.log("photo=",photo)
   return (
     <div >
     <img className={s.img} src={photo} width="100px"/>

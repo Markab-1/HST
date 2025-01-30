@@ -1,3 +1,4 @@
+import Link from 'components/Link/Link';
 import s from './Content.module.css';
 
 import DDschema from '../../figs/DD_schema.jpg';
@@ -19,15 +20,15 @@ const Intro = () => {
 const SciRationale = () => {
     return(
         <div>The interstellar medium (ISM) is a fundamental component in galaxies, profoundly connected to the chemical
-        evolution of galaxies because it transports more pristine gas accreted from the halo (Fox & Davé 2017) and metal-
+        evolution of galaxies because it transports more pristine gas accreted from the halo <Link link="https://ui.adsabs.harvard.edu/abs/2017ASSL..430.....F/abstract">(Fox & Davé 2017)</Link> and metal-
         enriched gas expelled by stellar winds and SNe. The stellar and ISM chemical properties are key to understanding
         the chemical evolution of the Milky Way (MW). The metallicity gradient observed in H ii regions (Arellano-Códova
-        et al. 2020) indicates an inside-out formation of the MW (Matteucci 2021). The relative abundances of α-elements
+        et al. 2020) indicates an inside-out formation of the MW <Link link="https://link.springer.com/article/10.1007/s00159-021-00133-8">(Matteucci 2021)</Link>. The relative abundances of α-elements
         (such as O, S, Si, Mg, Ti) with respect to Fe provide insights into the star-formation history of the MW, because
         core-collapse Supernovae produce most α-elements, while Type Ia SNe primarily produce most Fe-group elements
-        on longer timescales (Tinsley 1979, McWilliam 1997, Kobayashi et al. 2020). <br/>
+        on longer timescales (<Link link="https://ui.adsabs.harvard.edu/abs/1979ApJ...229.1046T/abstract">Tinsley 1979</Link>, <Link link="https://doi.org/10.1146/annurev.astro.35.1.503">McWilliam 1997</Link>, <Link link="https://doi.org/10.3847/1538-4357/abae65">Kobayashi et al. 2020</Link> ).<br/>
         The (relative) abundances of metals can be measured in detail in the MW ISM, thanks to UV/optical absorption-line
-        spectroscopy of bright stars (Savage & Sembach 1996). However, the presence of cosmic dust can dramatically alter
+        spectroscopy of bright stars (<Link link="https://doi.org/10.1146/annurev.astro.34.1.279">Savage & Sembach 1996</Link>). However, the presence of cosmic dust can dramatically alter
         the observed gas-phase abundances, because metals can instead be incorporated into dust grains - a phenomenon
         called dust depletion (Field 1974, Jenkins 2009, De Cia et al. 2016). The refractory elements, those with high
         condensation T, are particularly affected by dust depletion (Savage & Mathis 1979). For example, in the MW 90
