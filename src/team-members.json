@@ -3,125 +3,260 @@
     "id": 1,
     "name": "Annalisa",
     "fname": "De Cia",
-    "institute": "ESO, Garching",
-    "country": "ESO",
-    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000"
+    "institute": "ESO Garching",
+    "country": "Germany",
+    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000",
+    "role": "PI"
   },
 
   { 
     "id": 2,
-    "name": "Paul",
-    "fname": "Crowther",
-    "institute": "University of Sheffield",
-    "country": "United Kingdom",
-    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000"
-  },
-
-  { 
-    "id": 3,
-    "name": "Andrew",
-    "fname": "Fox",
-    "institute": "Space Telescope Science Institute",
-    "country": "ESA",
-    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000"
-  }, 
-
-  { 
-    "id": 4,
-    "name": "Jens-Kristian",
-    "fname": "Krogager",
-    "institute": "Centre de Recherche Astrophysique de Lyon",
-    "country": "France",
-    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000"
-  },
-
-  { 
-    "id": 5,
-    "name": "Christina",
-    "fname": "Konstantopoulou",
-    "institute": " ",
-    "country": " ",
-    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000"
-  },   
-
-  { 
-    "id": 6,
-    "name": "Varsha P",
-    "fname": "Kulkarni",
-    "institute": "University of South Carolina",
-    "country": "United States",
-    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000"
-  },
-
-  { 
-    "id": 7,
-    "name": "Cédric",
-    "fname": "Ledoux",
-    "institute": "ESO Chile",
-    "country": "ESO",
-    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000"
-  },
-
-  { 
-    "id": 8,
-    "name": "Celine",
-    "fname": "Peroux",
-    "institute": "ESO Garching",
-    "country": "ESO",
-    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000" 
-  },
-
-  { 
-    "id": 9,
-    "name": "Tanita",
-    "fname": "Ramburuth-Hurt",
-    "institute": " ",
-    "country": " ",
-    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000"   
-  },
-
-  { 
-    "id": 10,
-    "name": "Sergio",
-    "fname": "Simon-Diaz",
-    "institute": "Instituto de Astrofisica de Canarias",
-    "country": "Spain"   ,
-    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000"    
-  },
-
-  { 
-    "id": 11,
-    "name": "Anna",
-    "fname": "Velichko",
-    "institute": "V. N. Karazin Kharkiv National University",
-    "country": "Ukraine",
-    "photo": "https://drive.google.com/thumbnail?id=1O-vSexAKEfpe0-0DKjQ8okjddzqA8OoX&sz=w1000"
-  },
-
-  { 
-    "id": 12,
-    "name": "D.E.",
-    "fname": "Welty",
-    "institute": "Space Telescope Science Institute",
-    "country": "United States",
-    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000"
-  },
-
-  { 
-    "id": 13,
-    "name": "Patrick",
-    "fname": "Petitjean",
-    "institute": "Institut d'Astrophysique de Paris/CNRS and Sorbonne University",
-    "country": "France",
-    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000"
-  },
-
-  { 
-    "id": 14,
     "name": "Sergey",
     "fname": "Balashev",
     "institute": "Ioffe Institute",
     "country": "Russian Federation",
-    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000"
+    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000",
+    "role": "Co-I"
+  },
+
+  { 
+    "id": 3,
+    "name": "Paul",
+    "fname": "Crowther",
+    "institute": "University of Sheffield",
+    "country": "United Kingdom",
+    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000",
+    "role": "Co-I"
+  },
+
+  { 
+    "id": 4,
+    "name": "Laurent",
+    "fname": "Dalla Pola",
+    "institute": "University of Geneva",
+    "country": "Switzerland",
+    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000",
+    "role": "Co-I"
+  },
+
+  { 
+    "id": 5,
+    "name": "Marjorie",
+    "fname": "Decleir",
+    "institute": "STScI ESA",
+    "country": "USA",
+    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000",
+    "role": "Co-I"
+  },
+
+  { 
+    "id": 6,
+    "name": "Christopher",
+    "fname": "Evans",
+    "institute": "STScI ESA",
+    "country": "USA",
+    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000",
+    "role": "Co-I"
+  },
+
+  { 
+    "id": 7,
+    "name": "Steven R.",
+    "fname": "Federman",
+    "institute": "University of Toledo",
+    "country": "USA",
+    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000",
+    "role": "Co-I"
+  },
+
+  { 
+    "id": 8,
+    "name": "Andrew",
+    "fname": "Fox",
+    "institute": "STScI ESA",
+    "country": "USA",
+    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000",
+    "role": "Co-I"
+  }, 
+
+  { 
+    "id": 9,
+    "name": "Gonzalo",
+    "fname": "Holgado",
+    "institute": "Instituto de Astrofisica de Canarias",
+    "country": "Spain",
+    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000",
+    "role": "Co-I"
+  }, 
+
+  { 
+    "id": 10,
+    "name": "Edward B.",
+    "fname": "Jenkins",
+    "institute": "Princeton University",
+    "country": "USA",
+    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000",
+    "role": "Co-I"
+  }, 
+
+  { 
+    "id": 11,
+    "name": "Christina",
+    "fname": "Konstantopoulou",
+    "institute": " ",
+    "country": " ",
+    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000",
+    "role": "Co-I"
+  },
+
+  { 
+    "id": 12,
+    "name": "Daria",
+    "fname": "Kosenko",
+    "institute": "Ioffe Institute",
+    "country": "Russian Federation",
+    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000",
+    "role": "Co-I"
+  },
+
+  { 
+    "id": 13,
+    "name": "Jens-Kristian",
+    "fname": "Krogager",
+    "institute": "Centre de Recherche Astrophysique de Lyon",
+    "country": "France",
+    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000",
+    "role": "Co-I"
+  },
+
+  { 
+    "id": 14,
+    "name": "Varsha P.",
+    "fname": "Kulkarni",
+    "institute": "University of South Carolina",
+    "country": "USA",
+    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000",
+    "role": "Co-I"
+  },
+
+  { 
+    "id": 15,
+    "name": "Cédric",
+    "fname": "Ledoux",
+    "institute": "ESO",
+    "country": "Chile",
+    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000",
+    "role": "Co-I"
+  },
+
+  { 
+    "id": 16,
+    "name": "Pasquier",
+    "fname": "Noterdaeme",
+    "institute": "CNRS, Institut d'Astrophysique de Paris",
+    "country": "France",
+    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000",
+    "role": "Co-I"
+  },
+
+  { 
+    "id": 17,
+    "name": "Celine",
+    "fname": "Peroux",
+    "institute": "ESO Garching",
+    "country": "Germany",
+    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000" ,
+    "role": "Co-I"
+  },
+
+  { 
+    "id": 18,
+    "name": "Patrick",
+    "fname": "Petitjean",
+    "institute": "CNRS, Institut d'Astrophysique de Paris",
+    "country": "France",
+    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000",
+    "role": "Co-I"
+  },
+
+  { 
+    "id": 19,
+    "name": "Tanita",
+    "fname": "Ramburuth-Hurt",
+    "institute": " ",
+    "country": " ",
+    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000" ,
+    "role": "Co-I"  
+  },
+
+  { 
+    "id": 20,
+    "name": "Adam M.",
+    "fname": "Ritchey",
+    "institute": "Eureka Scientific Inc.",
+    "country": "USA",
+    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000" ,
+    "role": "Co-I"  
+  },
+
+  { 
+    "id": 21,
+    "name": "Julia Christine",
+    "fname": "Roman-Duval",
+    "institute": "STScI ESA",
+    "country": "USA",
+    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000" ,
+    "role": "Co-I"  
+  },
+  
+  { 
+    "id": 22,
+    "name": "Sandra",
+    "fname": "Savaglio",
+    "institute": "University of Calabria",
+    "country": "Italy",
+    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000" ,
+    "role": "Co-I"  
+  },
+
+  { 
+    "id": 23,
+    "name": "Sergio",
+    "fname": "Simon-Diaz",
+    "institute": "Instituto de Astrofisica de Canarias",
+    "country": "Spain"   ,
+    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000"  ,
+    "role": "Co-I"  
+  },
+
+  { 
+    "id": 24,
+    "name": "Anna",
+    "fname": "Velichko",
+    "institute": "V. N. Karazin Kharkiv National University",
+    "country": "Ukraine",
+    "photo": "https://drive.google.com/thumbnail?id=1O-vSexAKEfpe0-0DKjQ8okjddzqA8OoX&sz=w1000",
+    "role": "Co-I"
+  },
+
+  { 
+    "id": 25,
+    "name": "Daniel E.",
+    "fname": "Welty",
+    "institute": "STScI ESA",
+    "country": "USA",
+    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000",
+    "role": "Co-I"
+  },
+
+  { 
+    "id": 26,
+    "name": "Abel",
+    "fname": "de Burgos Sierra",
+    "institute": "ESO",
+    "country": "Chile",
+    "photo": "https://drive.google.com/thumbnail?id=1faWBcwBSuGZ8SRuq3ayK5bYe411oCtMA&sz=w1000",
+    "role": "Co-I"
   }
+
 ]

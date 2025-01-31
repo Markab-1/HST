@@ -9,16 +9,13 @@ function ShowText({children}) {
     const ref = useRef(null);
     useEffect(() => {
       setHeight(ref.current.clientHeight);
-    });
-
-    console.log("height= ",height)
+    },[height]);
 
     return(
         <div className={s.container}>        
-       <Wrapper className={showMore ? "active" : ""} height={height}> <p ref={ref}>{children}</p>  </Wrapper>         
+       <Wrapper className={showMore ? "active" : ""} height={height}> <div ref={ref}>{children}</div>  </Wrapper>         
         <button className={s.btn} onClick={() => setShowMore(!showMore)}>{showMore ? "Show less": "Show more"}</button>
-         </div>
-
+        </div>
     )
 }
 

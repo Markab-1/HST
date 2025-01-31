@@ -10,7 +10,7 @@ const NavList = (props) => {
     const isTablet = useMediaQuery({ query: '(min-width: 768px) and (max-width: 1399px)' })
     const isDesktop = useMediaQuery({ query: '(min-width: 1400px)' })
     
-    const [currentLink, setCurrentLink] = useState('science');
+    const [currentLink, setCurrentLink] = useState(' ');
 
     var MenuItem = s.menuItemMobile ;
     var CurrentMenuItem = s.currentMenuItemMobile ;
@@ -32,22 +32,22 @@ const NavList = (props) => {
   <ul className={MenuList}>
   <li>
       <NavLink to= "/"  >
-          <button className={currentLink  === "science" ? CurrentMenuItem : MenuItem} onClick= {() => setCurrentLink('science')}>Science</button>
+          <button className={currentLink  === "science" ? CurrentMenuItem : MenuItem} onClick= {() => {setCurrentLink('science'); props.setOpenNav(false);} }>Science</button>
       </NavLink>
   </li>
   <li>  
       <NavLink to= "/team" >
-          <button className={currentLink  === "team" ? CurrentMenuItem : MenuItem} onClick = {() => setCurrentLink('team')}>Team</button>
+          <button className={currentLink  === "team" ? CurrentMenuItem : MenuItem} onClick = {() => {setCurrentLink('team'); props.setOpenNav(false);} }>Team</button>
       </NavLink>
   </li>
   <li > 
       <NavLink to= "/products" >
-          <button className={currentLink  === "track" ? CurrentMenuItem : MenuItem} onClick = {() => setCurrentLink('track')}>Keeping track</button>
+          <button className={currentLink  === "track" ? CurrentMenuItem : MenuItem} onClick = {() => {setCurrentLink('track'); props.setOpenNav(false); } }>Keeping track</button>
       </NavLink>
   </li>
   <li > 
       <NavLink to= "/publications" >
-          <button className={currentLink  === "publications" ? CurrentMenuItem : MenuItem} onClick = {() => setCurrentLink('publications')}>Publications</button>
+          <button className={currentLink  === "publications" ? CurrentMenuItem : MenuItem} onClick = {() => {setCurrentLink('publications'); props.setOpenNav(false); } }>Publications</button>
       </NavLink>
   </li>
 </ul> 

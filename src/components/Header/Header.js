@@ -41,11 +41,11 @@ function Header({children}) {
             <img className={Img} src={hstimg} alt="logo" /> 
             <h1 className={Title}>Mining titanium: the abundances of metals and dust in the interstellar medium of the Milky Way </h1>
     {(isDesktop || isTablet ) && 
-            <NavList />
+            <NavList setOpenNav={setOpenNav}  />
         }
     {isMobile && 
         <div className={s.dropMenuContainer} >
-            <svg className={s.menuSvg} width='35px' height='35px' fill='gray' style={{visibility: openNav ? `hidden` : `visible` }}><use href={`${Symbols}#icon-menu-sandwich`}/></svg>
+            <svg className={s.menuSvg} width='35px' height='35px' fill='#ADD8E6' onClick={toggleNav} style={{visibility: openNav ? `hidden` : `visible` }}><use href={`${Symbols}#icon-menu-sandwich`}/></svg>
             <div className={s.dropMenu} style={{transform: openNav ? `translateX(0%)` : `translateX(100%)` }}>
             <NavList setOpenNav={setOpenNav} /> 
             <svg  height='35px' width='35px' fill='#b55c5e' onClick={toggleNav}><use href={`${Symbols}#icon-cross`}/></svg>                

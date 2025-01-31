@@ -135,6 +135,7 @@
   right: 0px;
   width: 250px;
   overflow: hidden;  
+  z-index: 10;
 
 }
 
