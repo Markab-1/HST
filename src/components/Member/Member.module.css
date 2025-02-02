@@ -12,6 +12,20 @@
     font-size: 16px;
 }
 
+.stampMobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px dotted rgb(196, 196, 197);
+    color: rgb(169, 170, 170);
+    font-size: 12px;
+}
+
 .img{
     display: inline-block;
     width:130px;
@@ -22,9 +36,32 @@
     background-color: rgb(206, 207, 209);
 }
 
+.imgMobile{
+    display: inline-block;
+    width:60px;
+    height: 60px;
+    
+    border-radius: 50%;
+
+    background-color: rgb(206, 207, 209);
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
 .item{
+
     font-weight: 500;
 }
+
+.itemMobile{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 12px;
+}
+
 
 .itemInst{
     font-size: 16px;
@@ -32,11 +69,20 @@
     margin-top: 20px;
 }
 
+.itemInstMobile{
+    font-size: 12px;
+    color: rgb(66, 66, 66);
+}
+
 .itemCountry{
     font-size: 16px;
     color: rgb(84, 104, 126);
 }
 
+.itemCountryMobile{
+    font-size: 12px;
+    color: rgb(84, 104, 126);
+}
 
 .hex {
     font-size: 10px;

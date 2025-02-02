@@ -15,7 +15,7 @@ function Header({children}) {
 
     var Container = s.containerTablet;
     var Img = s.imgMobile ;
-    var Title = s.titleTablet ;
+    var Title = s.titleMobile ;
 
     if (isTablet) {
         Container = s.containerTablet;

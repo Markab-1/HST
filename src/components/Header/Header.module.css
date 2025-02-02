@@ -102,7 +102,7 @@
   
   .titleMobile  {
     font-size: 26px;
-    color: rgb(76, 75, 75);
+    color: rgb(228, 227, 227);
     margin-bottom: 0px;
 }
 
@@ -111,20 +111,16 @@
     display: block;
     position: absolute;
     right: 5px;
-    top: 150px;
+    top: 60px;
     
     content: '';
-    width: 60px;
-    z-index: 5;
+    width: 40px;
+    z-index: 11;
     transition: all 400ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   .imgMobile:hover {
-    position: absolute;
-    left: 5px;
-    top: 5px;
-    transform: scale(1.1);
-
+    animation: shake 0.5s;
   }
 
 
@@ -136,7 +132,6 @@
   width: 250px;
   overflow: hidden;  
   z-index: 10;
-
 }
 
 .menuSvg{
