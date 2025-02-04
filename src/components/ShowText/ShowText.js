@@ -11,6 +11,8 @@ function ShowText({children}) {
       setHeight(ref.current.clientHeight);
     },[height]);
 
+    console.log("height=",height)
+
     return(
         <div className={s.container}>        
        <Wrapper className={showMore ? "active" : ""} height={height}> <div ref={ref}>{children}</div>  </Wrapper>         
