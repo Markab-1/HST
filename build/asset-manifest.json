@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/HST/static/css/main.974b32b9.css",
+    "main.css": "/HST/static/css/main.906da54c.css",
     "main.js": "/HST/static/js/main.44dc7b46.js",
     "static/media/MW_ISM.jpg": "/HST/static/media/MW_ISM.bab111827a5ff3d4ddcb.jpg",
     "static/media/DD_schema.jpg": "/HST/static/media/DD_schema.eecd51cac012bf630b5d.jpg",
     "static/media/HST_logo1.png": "/HST/static/media/HST_logo1.46e7d8c534f7799448be.png",
     "index.html": "/HST/index.html",
     "static/media/sprite.svg": "/HST/static/media/sprite.92cd8b206c653d626cdf51cd8a1ff675.svg",
-    "main.974b32b9.css.map": "/HST/static/css/main.974b32b9.css.map",
+    "main.906da54c.css.map": "/HST/static/css/main.906da54c.css.map",
     "main.44dc7b46.js.map": "/HST/static/js/main.44dc7b46.js.map"
   },
   "entrypoints": [
-    "static/css/main.974b32b9.css",
+    "static/css/main.906da54c.css",
     "static/js/main.44dc7b46.js"
   ]
 }
