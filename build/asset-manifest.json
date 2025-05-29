@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/HST/static/css/main.a013bd8e.css",
-    "main.js": "/HST/static/js/main.14ea593b.js",
-    "static/media/header_bkg.jpg": "/HST/static/media/header_bkg.7bfabdf36b30ec0977bc.jpg",
+    "main.css": "/HST/static/css/main.974b32b9.css",
+    "main.js": "/HST/static/js/main.44dc7b46.js",
     "static/media/MW_ISM.jpg": "/HST/static/media/MW_ISM.bab111827a5ff3d4ddcb.jpg",
     "static/media/DD_schema.jpg": "/HST/static/media/DD_schema.eecd51cac012bf630b5d.jpg",
     "static/media/HST_logo1.png": "/HST/static/media/HST_logo1.46e7d8c534f7799448be.png",
-    "static/media/sprite.svg": "/HST/static/media/sprite.92cd8b206c653d626cdf51cd8a1ff675.svg",
     "index.html": "/HST/index.html",
-    "main.a013bd8e.css.map": "/HST/static/css/main.a013bd8e.css.map",
-    "main.14ea593b.js.map": "/HST/static/js/main.14ea593b.js.map"
+    "static/media/sprite.svg": "/HST/static/media/sprite.92cd8b206c653d626cdf51cd8a1ff675.svg",
+    "main.974b32b9.css.map": "/HST/static/css/main.974b32b9.css.map",
+    "main.44dc7b46.js.map": "/HST/static/js/main.44dc7b46.js.map"
   },
   "entrypoints": [
-    "static/css/main.a013bd8e.css",
-    "static/js/main.14ea593b.js"
+    "static/css/main.974b32b9.css",
+    "static/js/main.44dc7b46.js"
   ]
 }
