@@ -44,6 +44,10 @@
     transition: background-color 500ms linear;
   }
 
+  .currentMenuItem:hover {
+    cursor: pointer;
+  }
+
   .menuListTablet {
     display: inline-flex;
     flex-direction: row;

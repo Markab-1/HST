@@ -13,7 +13,7 @@ function Header({children}) {
     const isTablet = useMediaQuery({ query: '(min-width: 768px) and (max-width: 1399px)' })
     const isDesktop = useMediaQuery({ query: '(min-width: 1400px)' })
 
-    var Container = s.containerTablet;
+    var Container = s.containerMobile;
     var Img = s.imgMobile ;
     var Title = s.titleMobile ;
 
@@ -39,7 +39,7 @@ function Header({children}) {
     <div>               
         <div className={Container}>
             <img className={Img} src={hstimg} alt="logo" /> 
-            <h1 className={Title}>Mining titanium: the abundances of metals and dust in the interstellar medium of the Milky Way </h1>
+            <h1 className={Title}>STIS-ISM: STIS ISM Survey in the Milky Way</h1>
     {(isDesktop || isTablet ) && 
             <NavList setOpenNav={setOpenNav}  />
         }

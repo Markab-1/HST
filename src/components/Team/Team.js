@@ -11,7 +11,7 @@ import s from 'components/Team/Team.module.css'
 
 
 function Team({children}) {
-      
+
   return ( 
     <Section>
         <Title title="Team"/> 

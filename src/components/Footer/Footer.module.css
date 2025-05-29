@@ -17,5 +17,5 @@
     transition: color 500ms linear ;
 &:hover{
     color: #c2c0c0;
-}    
+    }    
 }

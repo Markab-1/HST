@@ -1,4 +1,4 @@
-import { useMediaQuery } from 'react-responsive'
+import { useMediaQuery } from 'react-responsive' ;
 
 import s from './Title.module.css';
 
@@ -13,9 +13,7 @@ function Title({title}) {
  }
 
   return ( 
-
        <h2 className={Title}> {title} </h2>
-
   ) ;
 }
 

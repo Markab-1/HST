@@ -50,6 +50,11 @@ const NavList = (props) => {
           <button className={currentLink  === "publications" ? CurrentMenuItem : MenuItem} onClick = {() => {setCurrentLink('publications'); props.setOpenNav(false); } }>Publications</button>
       </NavLink>
   </li>
+    <li > 
+      <NavLink to= "/contact" >
+          <button className={currentLink  === "contact" ? CurrentMenuItem : MenuItem} onClick = {() => {setCurrentLink('contact'); props.setOpenNav(false); } }>Contact us</button>
+      </NavLink>
+  </li>
 </ul> 
 </div>);
 }

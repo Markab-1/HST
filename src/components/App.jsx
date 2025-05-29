@@ -6,6 +6,7 @@ import HomeDescription from './HomeDescription/HomeDescription';
 import Team from './Team/Team';
 import Products from './Products/Products';
 import Publications from './Publications/Publications';
+import ContactPage from './ContactPage/ContactPage';
 
 export const App = () => {
   return (
@@ -16,6 +17,7 @@ export const App = () => {
     <Route path="team" element={<Team/>}/>
     <Route path="products" element={<Products/>}/>
     <Route path="publications" element={<Publications/>}/>
+    <Route path="contact" element={<ContactPage/>}/>
   </Route>
 </Routes>
 </div>
