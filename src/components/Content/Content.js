@@ -6,14 +6,23 @@ import DDschema from '../../figs/DD_schema.jpg';
 const Intro = () => {
     return(
         <div>
-        The ISM is key to the chemical evolution of the Milky Way. Until recently, the metallicity of the neutral ISM could not be measured and was assumed
-        to be perfectly mixed due to Galactic rotation. Today, the chemical properties of the ISM are hotly debated. We propose to complement our HST
-        program with UVES measurements of Ti, crucial for studying the abundance and metal patterns in the warm neutral medium for individual gas
-        components. Our goals are to accurately determine levels of dust depletion and metallicities to investigate: 1) the cloud-to-cloud variations of
-        metallicity in the neutral ISM, which is essential for understanding metal mixing; 2) the unknown metallicity gradient of the neutral ISM; 3) the
-        possibility of local α-element enhancements in individual gas components, e.g on the Local Bubble. Finally, the UVES data will enable us to study 4)
-        the properties of the cold atomic and molecular gas and 5) the metallicities of OB stars, allowing a comparison with the ISM.
-        </div>
+        The Interstellar Medium (ISM) is key to the chemical evolution of our Galaxy. Until recently, the metallicity of
+the neutral ISM could not be measured and was assumed to be perfectly mixed, motivated by Galactic rotation.
+Today, the chemical properties of the neutral ISM are hotly debated, with some papers claiming the presence of
+low-metallicity gas due to gas infall on the disk and others measuring solar-metallicity gas, independent of
+galactocentric distance. Above all, the complexity of the chemical properties of the ISM is becoming striking.
+About half of the abundance patterns show deviations from the norm, likely caused by the superposition along
+the sightline of multiple ISM 'clouds' with different chemical properties (metallicity and/or depletion of metals
+into dust). STIS-ISM aims at observing OB stars in the Galaxy with the main scientific goals of: 1) Measure the
+cloud-to-cloud variations of metallicity in the neutral ISM along 20 sightlines. This requires highest-resolution
+spectroscopy covering different metals and we build a dedicated sample to complement existing archival data.
+The metallicity dispersion has an impact on phenomena related to gas mixing in galaxies. 2) Measure the
+metallicity gradient in the neutral ISM. This requires mid-resolution spectra of targets at large Galactocentric
+distances, currently limited to a dozen targets. STIS-ISM will study the ISM along 39 Gaia targets at &gt; 9 kpc
+from the Galactic Center, an uncharted territory. We will also study the stellar metallicities and compare with
+the gas. STIS-ISM will leave behind an unparalleled UV legacy, as the high resolution of the STIS spectra will
+remain unmatched for decades to come.    
+</div>
     )
 }
 

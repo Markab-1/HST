@@ -1,0 +1,197 @@
+.container{
+   display: inline-flex;
+   flex-wrap: wrap;
+   justify-content: left;
+   text-align: center;
+   width: 100%;
+   margin-left: -10px;
+   margin-top: 20px;
+}
+
+.containerTablet{
+
+   display: inline-flex;
+   flex-wrap: wrap;
+   justify-content: left;
+   text-align: center;
+   width: 100%;
+   margin-left: -10px;
+   margin-top: 0px;
+}
+
+.containerMobile{
+
+   display: inline-flex;
+   flex-wrap: wrap;
+   justify-content: left;
+   text-align: center;
+   width: 100%;
+   margin-left: -10px;
+   margin-top: 0px;
+}
+
+.card{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: calc(100% /3 - 20px );
+  
+  margin-left: 20px;
+  margin-top: 20px;
+
+  padding-top: 20px;
+  padding-bottom: 40px;
+
+  background-color: #f5f7fa ;
+
+  text-align: center;
+  font-size: 16px;
+  
+  border-radius: 10px;
+}
+
+.cardTablet{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  flex-basis: calc(100% /2 - 20px );
+  
+  margin-left: 20px;
+  margin-top: 20px;
+
+  padding-top: 20px;
+  padding-bottom: 40px;
+
+  background-color: #f5f7fa ;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.cardMobile{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  flex-basis: 100%;
+  
+  margin-left: 20px;
+  margin-top: 20px;
+
+  padding-top: 20px;
+  padding-bottom: 40px;
+
+  background-color: #f5f7fa ;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.content{
+    display: inline-block;
+    width: 280px;
+    height: 480px;
+    overflow: hidden;
+    text-align: justify;
+}
+
+.contentTablet{
+    display: inline-block;
+    width: 200px;
+    height: 480px;
+    overflow: hidden;
+    text-align: justify;
+}
+
+.contentMobile{
+    display: inline-block;
+    width: 70%;
+    height: 480px;
+    overflow: hidden;
+    text-align: justify;
+}
+
+
+.title{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.img{
+    display: inline-block;
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.btn{
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    width: 80px;
+    background-color: rgb(180, 208, 214);
+    border-radius: 5px;
+    border: 1px solid rgb(123, 132, 134);
+    padding: 5px 0px;
+    cursor: pointer;
+    transition: background-color 400ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-bottom: 10px;
+}
+ 
+.btn:hover{
+    background-color: rgb(132, 196, 212)
+}
+
+.date{
+    position:absolute;
+    left: 40px;
+    bottom:20px;
+    color: #acaeb0;
+    font-size: 14px;
+}
+
+.modalContent{
+    display: inline-flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.modalTitle{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.mainImg{
+   display: block; 
+   width: 800px;
+   border-radius: 5px;
+   margin-bottom: 40px;
+}
+
+.mainImgTablet{
+   display: block; 
+   width: 500px;
+   border-radius: 5px;
+   margin-bottom: 40px;
+}
+
+.mainImgMobile{
+   display: block; 
+   width: 70%;
+   border-radius: 5px;
+   margin-bottom: 40px;
+}
+
+.modalText{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.modalDate{
+    color: #acaeb0;
+}

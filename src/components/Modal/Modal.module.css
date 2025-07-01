@@ -1,0 +1,38 @@
+.modalBox{
+    position: fixed;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: inline-flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+
+    text-align: justify;
+
+    padding: 50px 50px;   
+    width: 70vw;
+    height: 85vh;
+    background-color: #e4e8f0;
+    z-index: 10;
+
+    border-radius: 5px;
+
+}
+
+.content{
+    display: inline-block;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.btn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 5px;
+    border: solid 1px #a9aaab;
+    background-color: #c5dfe6;
+    padding: 5px 8px;
+}

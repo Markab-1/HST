@@ -23,7 +23,7 @@ function HomeDescription({children}) {
       <Title title="Intro"/>
       <Subsection>
         <div className={Content}>
-            <Intro/>
+        <ShowText>  <Intro/> </ShowText>   
         </div>
       </Subsection>
       <Title title="Description of the proposed programme"/>

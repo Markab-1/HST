@@ -3,6 +3,8 @@ import { useMediaQuery } from 'react-responsive'
 import Section from 'components/Section/Section';
 import Subsection from 'components/Subsection/Subsection';
 import Title from 'components/Title/Title';
+import NewsList from 'components/NewsList/NewsList';
+
 
 function Products({children}) {   
   const isMobile = useMediaQuery({ query: '(max-width: 767px)'  })
@@ -11,11 +13,9 @@ function Products({children}) {
 
     return ( 
       <Section>
-         <Title title="The news"/>  
+         <Title title="What's new"/>  
         <Subsection>
-        <p>
-            To be updated...
-        </p>
+        <NewsList/>
         </Subsection>
       </Section>
     

@@ -3,6 +3,7 @@ import { useMediaQuery } from 'react-responsive'
 import React, { useState } from 'react';
 
 import hstimg from '../../figs/HST_logo1.png';
+import hstimg2 from '../../figs/HST_logo2.png';
 import Symbols from '../../figs/sprite.svg';
 
 import NavList from 'components/NavList/NavList';
@@ -38,8 +39,11 @@ function Header({children}) {
     return (       
     <div>               
         <div className={Container}>
+            {(isDesktop || isTablet ) && 
             <img className={Img} src={hstimg} alt="logo" /> 
-            <h1 className={Title}>STIS-ISM: STIS ISM Survey in the Milky Way</h1>
+            }
+            {isMobile && <img className={Img} src={hstimg2} alt="logo" /> }
+            <h1 className={Title}>STIS ISM Survey in the Milky Way</h1>
     {(isDesktop || isTablet ) && 
             <NavList setOpenNav={setOpenNav}  />
         }
